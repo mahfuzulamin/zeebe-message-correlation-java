@@ -7,11 +7,18 @@ This is a Java implementation of message correlation on Zeebe. This project simu
 * For single item data is sent as instance variable.
   * Run PackageSingleItem from io.zeebe.message.correlation package for single item
 
-Here's an image of a drag racer in action:
+### BPMN Workflow
+* Workflow with message correlation and interrupting timer boundary event.
 
-![Drag Racing](images/bpmn-workflow.PNG)
+![](images/bpmn-workflow.PNG)
 
-Move along.
+### Workflow instance with 2 items to package
+
+![](images/workflow-instance-two-items.PNG)
+
+### Workflow instance with single item to package
+
+![](images/workflow-instance-single-item.PNG)
 
 ### Build project
 * mvn clean install
