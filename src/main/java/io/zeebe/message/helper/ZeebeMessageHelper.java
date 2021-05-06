@@ -7,7 +7,7 @@ import io.zeebe.client.ZeebeClient;
 /**
  * Helper class for sending messages to Zeebe.
  * 
- * @author maamin
+ * @author Mahfuzul Amin
  *
  */
 public class ZeebeMessageHelper {
