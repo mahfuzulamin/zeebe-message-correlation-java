@@ -3,7 +3,9 @@ This is a Java implementation of message correlation on Zeebe. This project simu
 * Deploy's collect-items.bpmn BPMN Workflow to Zeebe. 
 * Correlates multiple items in a order based on order id which is the unique key.
 * For multiple items data is published as message.
+  * Run PackageMultipleItems from io.zeebe.message.correlation package for message correlation with 2 items
 * For single item data is sent as instance variable.
+  * Run PackageSingleItem from io.zeebe.message.correlation package for single item
 
 ### Build project
 * mvn clean install
