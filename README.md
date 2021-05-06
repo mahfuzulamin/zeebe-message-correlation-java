@@ -7,5 +7,11 @@ This is a Java implementation of message correlation on Zeebe. This project simu
 * For single item data is sent as instance variable.
   * Run PackageSingleItem from io.zeebe.message.correlation package for single item
 
+Here's an image of a drag racer in action:
+
+![Drag Racing](images/bpmn-workflow.PNG)
+
+Move along.
+
 ### Build project
 * mvn clean install
